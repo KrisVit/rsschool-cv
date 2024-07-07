@@ -41,6 +41,9 @@ function solution(str, ending){
 }
 
 ```
+## **Education**
+Belarusian State Economic University 2016 - 2020,
+Faculty of International Economic Relations  
 
 ## **Courses**   
 
