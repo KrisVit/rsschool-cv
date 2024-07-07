@@ -57,4 +57,4 @@ June 2024
 ## **Languages**   
 
 Russian - native   
-English - intermediate  
+English - intermediate 
