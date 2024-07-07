@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Krystsina Zaprahayeva</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#about me">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code">Code example</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#courses">Courses</a>
+                    </li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-profile">
+                <div class="photo">
+                    <img src="assets/images/photo.jpg" alt="my photo">
+                </div>
 
+                <div class="profile-description">
+                    <div class="name">
+                        <h1>Krystsina Zaprahayeva</h1>
+                    </div>
+
+                    <nav class="nav-contacts">
+                        <h2 class="contacts-title" id="contacts">Contacts: </h2>
+                        <ul class="contacts">
+                            <li id="phone" class="contact">
+                                <span>Phone:</span>
+                                <span>+375297489300</span>
+                            </li>
+                            <li id="email" class="contact">
+                                <span>E-mail:</span>
+                                <span>kris.vit909@gmail.com</span>
+                            </li>
+                            <li id="github" class="contact">
+                                <span>GitHub: </span>
+                                <a href="https://github.com/krisvit"
+                                    target="_blank">https://github.com/krisvit</a>
+                            </li>
+                            <li id="discord" class="contact">
+                                <span>Discord</span>
+                                <span>Krystsina Zaprahayeva (@krisvit)</span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="main-info">
+                <div id="about me" class="about">
+                    <h2>About myself</h2>
+                    <p>My name is Kristina. I work as a sales manager, also as a freelance web designer. Skilled in responsive design, wireframing, and optimizing website performance to drive increased traffic and conversion rates. Personal qualities: purposefulness, ambition, sociability, stress tolerance. I am interested in developing in the field of website development and mobile applications.</p>
+                </div>
+                <div id="skills" class="skills">
+                    <h2>Skills</h2>
+                    <nav>
+                        <ul>
+                            <li>HTML, CSS, JS</li>
+                            <li>Git, Github</li>
+                            <li>Figma</li>
+                            <li>Photoshop, Illustrator</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="code" class="code">
+                    <h2>Code example</h2>
+                    <div class="task">
+                        Task from Codewars:
+                        <span>Task from Codewars: Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string). Examples:
+
+                            solution(‘abc’, ‘bc’) // returns true solution(‘abc’, ‘d’) // returns false</span>
+                    </div>
+                    <div class="code solution">
+                        My code solution:
+                    </div>
+                    <pre class="solution">
+                            <code>
+                                function solution(str, ending){
+                                    if (typeof(str) != "string" || typeof(ending) != "string")
+                                      throw "wrong type";
+                                    if (ending.length>str.length)
+                                      return false;
+                                    return str.substr(str.length-ending.length, ending.length) == ending;
+                                  }
+                            </code>  
+                        </pre>
+
+                </div>
+                <div id="education" class="projects">
+                    <h2>Education</h2>
+                    <div class="education">
+                        <span>Belarusian State Economic University 2016 - 2020, Faculty of International Economic Relations</span>
+                    </div>
+
+                </div>
+                <div id="courses" class="courses">
+                    <h2>Courses</h2>
+                    <div class="courses-description">
+                        <span>Illustrator Course in FungiStudio</span> November 2023 - January 2024
+                    </div>
+                    <div class="courses-description">
+                        <span>HTML, CSS, JS Course</span> in CodeBasic June 2024
+                    </div>
+                    <div id="languages" class="languages">
+                        <h2>Languages</h2>
+                        <nav>
+                            <ul>
+                                <li>Russian - native</li>
+                                <li>English - intermediate</li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/krisvit" target="_blank">My GitHub</a>
+            <span>2024</span>
+            <div class="school-info">
+                <img src="assets/images/rs-school-logo.svg" alt="RSSchool">
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
