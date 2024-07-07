@@ -44,7 +44,8 @@ function solution(str, ending){
 
 ## **Education**
 Belarusian State Economic University 2016 - 2020,
-Faculty of International Economic Relations 
+Faculty of International Economic Relations  
+
 
 ## **Courses**   
 
@@ -57,4 +58,6 @@ June 2024
 ## **Languages**   
 
 Russian - native   
-English - intermediate 
+English - intermediate  
+ 
+
