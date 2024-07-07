@@ -46,6 +46,7 @@ function solution(str, ending){
 Belarusian State Economic University 2016 - 2020,
 Faculty of International Economic Relations  
 
+
 ## **Courses**   
 
 Illustrator Course in FungiStudio
@@ -59,3 +60,4 @@ June 2024
 Russian - native   
 English - intermediate  
  
+
